@@ -3,52 +3,71 @@ import {StyleSheet, Text, View, Image, ToastAndroid, AlertAndroid, TouchableHigh
 import Orientation from 'react-native-orientation'
 import Sound from 'react-native-sound'
 import Immersive from 'react-native-immersive'
+//import Number from 'Number'
+
+
 
 var background_music = null;
 
+var solution = 0;
 var number_sounds = [];
-var current_number = 0;
+var slots = [];
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
 
-    background_music = new Sound('professor_bg_music.mp3', Sound.MAIN_BUNDLE, (error) => {
-      if (error) {
-        ToastAndroid.show("ERRO AO CARREGAR", ToastAndroid.SHORT);
-        return;
-      }      
-      background_music.setVolume(0.6);
-      background_music.setNumberOfLoops(-1);
-      background_music.play();
-    });   
+    // background_music = new Sound('professor_bg_music.mp3', Sound.MAIN_BUNDLE, (error) => {
+    //   if (error) {
+    //     ToastAndroid.show("ERRO AO CARREGAR", ToastAndroid.SHORT);
+    //     return;
+    //   }      
+    //   background_music.setVolume(0.6);
+    //   background_music.setNumberOfLoops(-1);
+    //   background_music.play();
+    // });   
 
     Orientation.lockToLandscape();
     Immersive.on();
 
-
     this.populateSounds();
-    this.generateNewNumber();
+    this.populateSlots();
+    this.getSolution();
   }
 
-  generateNewNumber = () => {
-    var min = 0;
-    var max = 10;
-
-    var rand = current_number;
+  generateNumbers = (min, max , differentFrom) => {
+    var rand = differentFrom;
       
-    while(rand === current_number)
+    while(rand === differentFrom)
     {
       rand = min + (Math.random() * (max-min));
+      rand = parseInt(rand);
     }
     
-    current_number = rand;
+    return rand;
+  }
+
+  populateSlots = () =>{
+    for(var i=0; i<=2;i++){
+      if(i==0)
+        this.slots[i] = generateNewNumber(0,10,-1);
+      else{
+        this.slots[i] = generateNewNumber(0,10,this.slots[i-1]);
+      }
+    }
+  }
+
+  getSolution = () => {
+    solution = this.slots[generateNewNumber(0, 2, -1)];
   }
   
   numberSound = () => {
-    number_sounds[current_number].play();
-    //current_number = current_number++ % 10;
-    generateNewNumber();
+    number_sounds[solution].play(); 
+    this.populateSlots();
+    this.getSolution();
+
+    var numbers = this.slots;
+    ToastAndroid.show("" + numbers[0] + "," + numbers[1] + "," + numbers[3]  + " - " + solution);
   }
 
   populateSounds = () =>{
@@ -87,7 +106,6 @@ const styles = StyleSheet.create({
   },
   number_button:{
     backgroundColor:'#FFF', 
-    marginTop:10, 
     padding:10,
     position:"absolute", 
     zIndex:999
