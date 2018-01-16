@@ -10,8 +10,8 @@ import Immersive from 'react-native-immersive'
 var background_music = null;
 
 var solution = 0;
-var number_sounds = [];
-var slots = [];
+var number_sounds = new Array(10);
+var slots = new Array(3);
 
 export default class App extends React.Component {
   constructor(props){
@@ -31,43 +31,55 @@ export default class App extends React.Component {
     Immersive.on();
 
     this.populateSounds();
+
     this.populateSlots();
     this.getSolution();
-  }
-
-  generateNumbers = (min, max , differentFrom) => {
-    var rand = differentFrom;
-      
-    while(rand === differentFrom)
-    {
-      rand = min + (Math.random() * (max-min));
-      rand = parseInt(rand);
-    }
-    
-    return rand;
+   
+  } 
+  
+  generateNewNumber = (max) => {
+    return parseInt(Math.random()*(max+1));
   }
 
   populateSlots = () =>{
-    for(var i=0; i<=2;i++){
-      if(i==0)
-        this.slots[i] = generateNewNumber(0,10,-1);
-      else{
-        this.slots[i] = generateNewNumber(0,10,this.slots[i-1]);
-      }
-    }
-  }
+      slots[0] = this.generateNewNumber(10);
+      
+      var auxrandom = this.generateNewNumber(10);
+      while(auxrandom===slots[0])
+      auxrandom = this.generateNewNumber(10);
+
+      slots[1] = auxrandom;
+
+      auxrandom = this.generateNewNumber(10);
+
+      while(auxrandom===slots[0] || auxrandom === slots[1])
+        auxrandom = this.generateNewNumber(10);
+      
+      slots[2] = auxrandom;
+  }  
 
   getSolution = () => {
-    solution = this.slots[generateNewNumber(0, 2, -1)];
+    var random = this.generateNewNumber(100);
+    if(random <33)
+      random = 0;
+    else if(random >= 33 && random<=66)
+      random = 1;
+    else
+      random = 2;
+
+    solution = slots[random];
   }
   
   numberSound = () => {
-    number_sounds[solution].play(); 
+    //number_sounds[solution].play(); 
     this.populateSlots();
     this.getSolution();
 
-    var numbers = this.slots;
-    ToastAndroid.show("" + numbers[0] + "," + numbers[1] + "," + numbers[3]  + " - " + solution);
+    var numbers = slots;
+    ToastAndroid.show("" + numbers[0] + "," + numbers[1] + "," + numbers[2]  + " - " + solution, ToastAndroid.SHORT);
+
+
+
   }
 
   populateSounds = () =>{
