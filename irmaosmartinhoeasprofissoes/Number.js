@@ -1,16 +1,33 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {StyleSheet, Text, View, Image, TouchableOpacity, ToastAndroid} from 'react-native';
 export default class Number extends React.Component {
 
     constructor(props){
         super(props);
-
-        this.setState({
-            value: 0          
-        })
+        this.state =
+        {
+            value: props.value, 
+        }
     }
 
     render(){
-        return (<Image source={this.props.imageURL}> </Image>);
+        return (
+            <View>
+                <TouchableOpacity onPress={this.props.pressFunction}>
+                    <Image 
+                        style={styles.slot} 
+                        source={this.props.source}></Image>
+                </TouchableOpacity>
+            </View>
+        );
     }
 }
+
+const styles = StyleSheet.create({
+    slot:
+    {
+      width: 80,
+      height: 80, 
+      marginLeft:40
+    }
+  });

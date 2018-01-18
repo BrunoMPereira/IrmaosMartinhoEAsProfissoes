@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, Image, ToastAndroid, AlertAndroid, TouchableHighlight} from 'react-native';
+import {StyleSheet, Text, View, Image, ToastAndroid, AlertAndroid, TouchableOpacity} from 'react-native';
 import Orientation from 'react-native-orientation'
 import Sound from 'react-native-sound'
 import Immersive from 'react-native-immersive'
-//import Number from 'Number'
+import Number from './Number'
 
 
 
@@ -13,30 +13,48 @@ var solution = 0;
 var number_sounds = new Array(10);
 var slots = new Array(3);
 
+var images_source = [
+  require('./assets/images/numbers/numero0.png'),
+  require('./assets/images/numbers/numero1.png'),
+  require('./assets/images/numbers/numero2.png'),
+  require('./assets/images/numbers/numero3.png'),
+  require('./assets/images/numbers/numero4.png'),
+  require('./assets/images/numbers/numero5.png'),
+  require('./assets/images/numbers/numero6.png'),
+  require('./assets/images/numbers/numero7.png'),
+  require('./assets/images/numbers/numero8.png'),
+  require('./assets/images/numbers/numero9.png'),
+  require('./assets/images/numbers/numero10.png'),
+]
+
 export default class App extends React.Component {
   constructor(props){
-    super(props);
-
+    super(props); 
+  } 
+  
+  componentWillMount(){
     // background_music = new Sound('professor_bg_music.mp3', Sound.MAIN_BUNDLE, (error) => {
     //   if (error) {
     //     ToastAndroid.show("ERRO AO CARREGAR", ToastAndroid.SHORT);
     //     return;
     //   }      
-    //   background_music.setVolume(0.6);
+    //   background_music.setVolume(0.4);
     //   background_music.setNumberOfLoops(-1);
     //   background_music.play();
-    // });   
-
+    // });
+    
     Orientation.lockToLandscape();
     Immersive.on();
 
     this.populateSounds();
 
-    this.populateSlots();
-    this.getSolution();
-   
-  } 
-  
+    this.newGame();
+  }
+
+  componentWillUnmount(){
+    background_music.stop();
+  }
+
   generateNewNumber = (max) => {
     return parseInt(Math.random()*(max+1));
   }
@@ -71,15 +89,13 @@ export default class App extends React.Component {
   }
   
   numberSound = () => {
-    //number_sounds[solution].play(); 
+    number_sounds[solution].play(); 
+  }
+
+  newGame = ()  => {
     this.populateSlots();
     this.getSolution();
-
-    var numbers = slots;
-    ToastAndroid.show("" + numbers[0] + "," + numbers[1] + "," + numbers[2]  + " - " + solution, ToastAndroid.SHORT);
-
-
-
+    this.numberSound();
   }
 
   populateSounds = () =>{
@@ -89,38 +105,87 @@ export default class App extends React.Component {
           return;
         }
       });
-    };
+      number_sounds[i].setVolume(1);
+    }
+  }
+
+  onNumberPressed(number){
+    if(number!=solution)
+      ToastAndroid.show("ERRASTE!", ToastAndroid.SHORT);
+    else{
+      ToastAndroid.show("ACERTASTE!", ToastAndroid.SHORT);
+      this.newGame();
+      this.forceUpdate();
+    }
   }
 
   render() {
     return (
       <View style={styles.container}>
-       <TouchableHighlight style={styles.number_button} onPress={() => this.numberSound()}>
-            <Text style={{fontSize:25}}>DIZ O NÚMERO</Text>
-          </TouchableHighlight>
-          
         <Image 
-          style={{width: 600, height: 370}}
-          source={require('./assets/images/professor_background.png')}></Image>
+          style={{width: 600, height: 370, marginLeft:19}}
+          source={require('./assets/images/professor_background.png')}>
+        </Image>
+
+       <TouchableOpacity style={styles.say_again} onPress={() => this.numberSound()}>
+            {/* <Text style={{fontSize:25}}>Repetir Número</Text> */}
+            { <Image 
+              style={{width: 80, height: 80, position:"relative"}}
+              source={require('./assets/images/speak.png')}></Image> }
 
 
+       </TouchableOpacity>
+          
+
+        <View style={styles.slots}>
+          <Number
+            pressFunction={() => this.onNumberPressed(slots[0])}
+            value={slots[0]}
+            source={images_source[slots[0]]}>
+          </Number>
+
+          <Number
+            pressFunction={() => this.onNumberPressed(slots[1])}
+            value={slots[1]}
+            source={images_source[slots[1]]}>
+          </Number>
+
+          <Number
+            pressFunction={() => this.onNumberPressed(slots[2])}
+            value={slots[2]}
+            source={images_source[slots[2]]}>
+          </Number> 
+        </View>
       </View>
-    )
+    );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#222',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  number_button:{
-    backgroundColor:'#FFF', 
-    padding:10,
-    position:"absolute", 
-    zIndex:999
+    backgroundColor: '#7ab5c7',
     
+  },
+  say_again:{    
+    position:"absolute", 
+    marginTop:195,
+    marginLeft:40,
+    zIndex:0
+  },
+  slots:{
+    flexDirection:'row',
+    flex:3, 
+    marginTop:180,
+    marginLeft:111.5,
+    zIndex:990, 
+    position:'absolute'
+  },
+  slot:
+  {
+    width: 80,
+    height: 80, 
+    marginLeft:91,
+    zIndex:990
   }
 });
