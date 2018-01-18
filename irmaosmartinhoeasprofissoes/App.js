@@ -47,7 +47,6 @@ export default class App extends React.Component {
     Immersive.on();
 
     this.populateSounds();
-
     this.newGame();
   }
 
@@ -128,12 +127,10 @@ export default class App extends React.Component {
         </Image>
 
        <TouchableOpacity style={styles.say_again} onPress={() => this.numberSound()}>
-            {/* <Text style={{fontSize:25}}>Repetir Número</Text> */}
-            { <Image 
-              style={{width: 80, height: 80, position:"relative"}}
-              source={require('./assets/images/speak.png')}></Image> }
-
-
+          <Image 
+                  style={{width: 80, height: 200, position:"relative"}}
+                  source={require('./assets/images/martinho_professor.png')}>
+          </Image> 
        </TouchableOpacity>
           
 
@@ -165,18 +162,17 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#7ab5c7',
-    
   },
   say_again:{    
     position:"absolute", 
-    marginTop:195,
+    marginTop:179,
     marginLeft:40,
     zIndex:0
   },
   slots:{
     flexDirection:'row',
     flex:3, 
-    marginTop:180,
+    marginTop:90,
     marginLeft:111.5,
     zIndex:990, 
     position:'absolute'
