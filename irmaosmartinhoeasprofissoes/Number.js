@@ -13,10 +13,11 @@ export default class Number extends React.Component {
     render(){
         return (
             <View>
-                <TouchableOpacity onPress={this.props.pressFunction}>
+                <TouchableOpacity 
+                    onPress={this.props.pressFunction}>
                     <Image 
-                        style={styles.slot} 
-                        source={this.props.source}></Image>
+                    style={styles.slot} 
+                    source={this.props.source}></Image>
                 </TouchableOpacity>
             </View>
         );
@@ -27,7 +28,8 @@ const styles = StyleSheet.create({
     slot:
     {
       width: 80,
-      height: 80, 
-      marginLeft:40
+      height: 93, 
+      marginLeft:40,
+      marginTop:5
     }
   });
