@@ -37,6 +37,8 @@ var rightAnswer2_sfx = null;
 var wrongAnswer1_sfx = null;
 var wrongAnswer2_sfx = null;
 
+var victorySound = null;
+
 var instruction = null;
 var hint = null;
 
@@ -47,7 +49,7 @@ export default class TeacherActivity extends React.Component{
         super(props);
         rightAnswer1_sfx = new Sound('boa.mp3', Sound.MAIN_BUNDLE, (error) => {
             if (error) {
-                ToastAndroid.show("ERRO AO CARREGAR", ToastAndroid.SHORT);
+                
                 return;
             }
             rightAnswer1_sfx.setVolume(1);
@@ -97,6 +99,15 @@ export default class TeacherActivity extends React.Component{
             }
             hint.setVolume(1);
             hint.setNumberOfLoops(0);
+        });
+
+        victorySound = new Sound('victory.mp3', Sound.MAIN_BUNDLE, (error) => {
+            if (error) {
+                ToastAndroid.show("ERRO AO CARREGAR", ToastAndroid.SHORT);
+                return;
+            }
+            victorySound.setVolume(1);
+            victorySound.setNumberOfLoops(0);
         });
     }
 
@@ -199,17 +210,26 @@ export default class TeacherActivity extends React.Component{
                     hint.play()
             }, 2300)
         }
-
         else {
             var random = this.generateNewNumber(100);
-            if (random < 49)
-                rightAnswer1_sfx.play();
-            else
-                rightAnswer2_sfx.play();
-            setTimeout(() => { this.newGame() }, 1700)
-
+        
             score = score + 1;
             this.checkGameOver();
+
+            if (random < 49)
+                    rightAnswer1_sfx.play();
+                else
+                    rightAnswer2_sfx.play();
+
+            if(!gameOver)
+            {
+                /*if (random < 49)
+                    rightAnswer1_sfx.play();
+                else
+                    rightAnswer2_sfx.play();*/
+
+                setTimeout(() => { this.newGame() }, 1700)
+            }
         }
     }
 
@@ -217,8 +237,28 @@ export default class TeacherActivity extends React.Component{
         //MUDAR NO FINAL
         if(score === 1)
         {
-            gameOver = true;
+            this.endGame();
         }
+    }
+
+    endGame = () => {
+        gameOver = true;
+        this.playVictory();
+        this.forceUpdate();
+    }
+
+    playVictory = () => {
+        victorySound.play();
+    }
+
+    restart = () => {
+        score = 0;
+        gameOver = false;
+        this.newGame();
+    }
+
+    exitGame = () => {
+        //mais tarde voltar para a scene do minigame
     }
 
     render() {
@@ -226,7 +266,9 @@ export default class TeacherActivity extends React.Component{
             <View style={styles.container}>
                 <WinningTicks ticksNumber={score}/>
 
-                <GameOver showGameOver={gameOver} />
+                <GameOver showGameOver={gameOver}
+                          pressRestartFunction={() => this.restart()} 
+                          pressExitFunction={() => this.exitGame()}/>
 
                 <Image
                     style={{ width: 600, height: 370, marginLeft: 19 }}
