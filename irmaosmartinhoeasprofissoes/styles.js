@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
       flex:3, 
       marginTop:120,
       marginLeft:111.5,
-      zIndex:990, 
+      zIndex:900, 
       position:'absolute'
     },
     slot:
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
       width: 80,
       height: 80, 
       marginLeft:91,
-      zIndex:990
+      zIndex:900
     }
   });
 

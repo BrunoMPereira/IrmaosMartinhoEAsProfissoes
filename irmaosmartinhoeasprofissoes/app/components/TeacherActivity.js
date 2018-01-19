@@ -4,7 +4,9 @@ import Orientation from 'react-native-orientation'
 import Sound from 'react-native-sound'
 import Immersive from 'react-native-immersive'
 
-import Number from '../../Number'
+import WinningTicks from './WinningTicks'
+import Number from './Number';
+import GameOver from './GameOver';
 
 var styles = require('../../styles');
 
@@ -25,7 +27,7 @@ var images_source = [
 var solution = 0;
 var number_sounds = new Array(10);
 var slots = new Array(3);
-
+var score = 0;
 
 var background_sfx = null;
 
@@ -37,6 +39,8 @@ var wrongAnswer2_sfx = null;
 
 var instruction = null;
 var hint = null;
+
+var gameOver = false;
 
 export default class TeacherActivity extends React.Component{
     constructor(props) {
@@ -203,12 +207,27 @@ export default class TeacherActivity extends React.Component{
             else
                 rightAnswer2_sfx.play();
             setTimeout(() => { this.newGame() }, 1700)
+
+            score = score + 1;
+            this.checkGameOver();
+        }
+    }
+
+    checkGameOver = () => {
+        //MUDAR NO FINAL
+        if(score === 1)
+        {
+            gameOver = true;
         }
     }
 
     render() {
         return (
             <View style={styles.container}>
+                <WinningTicks ticksNumber={score}/>
+
+                <GameOver showGameOver={gameOver} />
+
                 <Image
                     style={{ width: 600, height: 370, marginLeft: 19 }}
                     source={require('../../assets/images/professor_background.png')}>
