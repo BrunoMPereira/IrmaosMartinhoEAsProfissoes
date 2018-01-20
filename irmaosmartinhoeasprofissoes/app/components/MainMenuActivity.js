@@ -24,14 +24,13 @@ export default class TeacherActivity extends React.Component{
             if (error) {
                 return;
             }
-            //background_sfx.setVolume(0.34);
-            //background_sfx.setNumberOfLoops(-1);
-            //background_sfx.play();
+            background_sfx.setVolume(0.34);
+            background_sfx.setNumberOfLoops(-1);
+            background_sfx.play();
         });
     }
-
-
     render() {
+        const { navigate } = this.props.navigation;
         return (
             <View style={styles.container}>
                  <Image
@@ -40,7 +39,9 @@ export default class TeacherActivity extends React.Component{
                 </Image>
 
 
-                <TouchableOpacity style={styles.main_menu_play} onPress={() => {}}>
+                <TouchableOpacity 
+                style={styles.main_menu_play} 
+                onPress={() => {navigate('ChooseMiniGameActivity',{}); background_sfx.stop();}}>
                     <Image
                         style={{ width: 130, height: 50, position: "relative" }}
                         source={require('../../assets/images/play.png')}>

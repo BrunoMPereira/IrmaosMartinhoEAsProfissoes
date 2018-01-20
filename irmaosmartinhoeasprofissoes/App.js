@@ -4,11 +4,14 @@ import Orientation from 'react-native-orientation'
 import Sound from 'react-native-sound'
 import Immersive from 'react-native-immersive'
 
+import { StackNavigator} from 'react-navigation'
 
 import TeacherActivity from './app/components/TeacherActivity';
 import MainMenuActivity from './app/components/MainMenuActivity';
+import ChooseMiniGameActivity from './app/components/ChooseMiniGameActivity';
 
-import { StackNavigator} from 'react-navigation'
+
+
 
 const { ActivityStarter } = NativeModules;
 
@@ -16,6 +19,9 @@ const NavigationApp = StackNavigator(
   {
     MainMenuActivity: { 
       screen: MainMenuActivity,
+    },
+    ChooseMiniGameActivity: { 
+      screen: ChooseMiniGameActivity,
     },
 
     TeacherActivity: { 

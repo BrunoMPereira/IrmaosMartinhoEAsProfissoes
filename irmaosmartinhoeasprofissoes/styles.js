@@ -24,6 +24,19 @@ const styles = StyleSheet.create({
       zIndex:900, 
       position:'absolute'
     },
+    pause_button:{
+      marginLeft:580, 
+      marginTop:10,
+      position:'absolute',
+      zIndex:999
+    },
+    back_button:{
+      marginLeft:10, 
+      marginTop:10,
+      position:'absolute',
+      zIndex:999
+    },
+
     main_menu_play:{
       marginLeft:262, 
       marginTop:215,
@@ -36,7 +49,15 @@ const styles = StyleSheet.create({
       marginTop:300,
       position:'absolute',
       zIndex:999
+    },
+    mini_game_button:{
+      width: 95, 
+      height: 210, 
+      position: "relative",
+      marginLeft:30
     }
+
+
 
   });
 

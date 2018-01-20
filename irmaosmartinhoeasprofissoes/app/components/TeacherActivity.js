@@ -7,6 +7,7 @@ import Immersive from 'react-native-immersive'
 import WinningTicks from './WinningTicks'
 import Number from './Number';
 import GameOver from './GameOver';
+import Pause from './Pause';
 
 var styles = require('../../styles');
 
@@ -43,15 +44,16 @@ var instruction = null;
 var hint = null;
 
 var gameOver = false;
+var onPause = false;
 
-const MAX_SCORE = 10;
+const MAX_SCORE = 1;
 
-export default class TeacherActivity extends React.Component{
+export default class TeacherActivity extends React.Component {
     constructor(props) {
         super(props);
         rightAnswer1_sfx = new Sound('boa.mp3', Sound.MAIN_BUNDLE, (error) => {
             if (error) {
-                
+
                 return;
             }
             rightAnswer1_sfx.setVolume(1);
@@ -214,17 +216,16 @@ export default class TeacherActivity extends React.Component{
         }
         else {
             var random = this.generateNewNumber(100);
-        
+
             score = score + 1;
             this.checkGameOver();
 
             if (random < 49)
-                    rightAnswer1_sfx.play();
-                else
-                    rightAnswer2_sfx.play();
+                rightAnswer1_sfx.play();
+            else
+                rightAnswer2_sfx.play();
 
-            if(!gameOver)
-            {
+            if (!gameOver) {
                 /*if (random < 49)
                     rightAnswer1_sfx.play();
                 else
@@ -236,8 +237,7 @@ export default class TeacherActivity extends React.Component{
     }
 
     checkGameOver = () => {
-        if(score === MAX_SCORE)
-        {
+        if (score === MAX_SCORE) {
             this.endGame();
         }
     }
@@ -258,19 +258,31 @@ export default class TeacherActivity extends React.Component{
         this.newGame();
     }
 
-    exitGame = () => {
-        //mais tarde voltar para a scene do minigame
+    setOnPause = (value) =>{
+        onPause = value;
     }
-
     render() {
+        const { navigate } = this.props.navigation;
         return (
             <View style={styles.container}>
-                <View style={{marginLeft:80, marginTop:20, position:'absolute'}}>
-                    <WinningTicks ticksNumber={score}/>
+                <TouchableOpacity style={styles.pause_button} onPress={() => this.setOnPause(true)}>
+                    <Image
+                        style={{ width: 50, height: 50, position: "relative" }}
+                        source={require('../../assets/images/pause.png')}>
+                    </Image>
+                </TouchableOpacity>
+
+                <View style={{ marginLeft: 80, marginTop: 20, position: 'absolute' }}>
+                    <WinningTicks ticksNumber={score} />
                 </View>
+
+                <Pause onPause={onPause}
+                    pressRestartFunction={() => this.setOnPause(false)}
+                    pressExitFunction={() => { navigate('MainMenuActivity', {}); background_sfx.stop() }} />
+
                 <GameOver showGameOver={gameOver}
-                          pressRestartFunction={() => this.restart()} 
-                          pressExitFunction={() => this.exitGame()}/>
+                    pressRestartFunction={() => this.restart()}
+                    pressExitFunction={() => { navigate('MainMenuActivity', {}); background_sfx.stop() }} />
 
                 <Image
                     style={{ width: 600, height: 370, marginLeft: 19 }}
