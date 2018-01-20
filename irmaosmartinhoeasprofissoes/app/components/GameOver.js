@@ -1,22 +1,28 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground} from 'react-native';
 
 var showGameOver = false;
 export default class GameOver extends React.Component {
 
     constructor(props){
         super(props);
+        this.state =
+        {
+            showGameOver: props.showGameOver
+        }
+    }
+
+    componentWillUpdate(nextProps, nextState) {
+        nextState.showGameOver = nextProps.showGameOver;
     }
 
     render(){
         if (showGameOver) {
             return (
-                <View>
-                    <Image
-                        style={{ width: 520, height: 320, marginLeft: 19, zIndex: 920 }}
-                        source={require('../../assets/images/teacher_gameover_panel.png')}>
-                    </Image>
-
+                <ImageBackground 
+                    source={require('../../assets/images/teacher_gameover_panel.png')}
+                    style={{ width: 520, height: 310, marginLeft: 57, marginTop: 30, zIndex: 920, position: 'absolute' }}>
+                
                     <TouchableOpacity 
                         onPress={this.props.pressRestartFunction}>
                         <Image 
@@ -30,7 +36,7 @@ export default class GameOver extends React.Component {
                         style={styles.exitButton} 
                         source={require('../../assets/images/exit.png')}></Image>
                     </TouchableOpacity>
-                </View>
+                </ImageBackground>
             );
         }
         else
@@ -42,13 +48,19 @@ export default class GameOver extends React.Component {
 
 const styles = StyleSheet.create({
     restartButton:{
-        zIndex: 950, 
-        width: 100,
-        height: 50  
+        zIndex: 990, 
+        width: 160,
+        height: 60,
+        marginTop: 150,
+        marginLeft: 170,
+        position: 'relative'
     },
     exitButton:{
-        zIndex: 950, 
-        width: 100,
-        height: 50  
+        zIndex: 990, 
+        width: 160,
+        height: 60,
+        marginTop: 15,
+        marginLeft: 170,
+        position: 'relative' 
     },
 });
