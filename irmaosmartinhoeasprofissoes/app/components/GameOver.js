@@ -17,7 +17,7 @@ export default class GameOver extends React.Component {
     }
 
     render(){
-        if (showGameOver) {
+        if (this.state.showGameOver) {
             return (
                 <ImageBackground 
                     source={require('../../assets/images/teacher_gameover_panel.png')}

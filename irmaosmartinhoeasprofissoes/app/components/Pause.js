@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground} from 'react-native';
 
 var onPause = false;
-export default class GameOver extends React.Component {
+export default class Pause extends React.Component {
 
     constructor(props){
         super(props);
@@ -17,11 +17,11 @@ export default class GameOver extends React.Component {
     }
 
     render(){
-        if (onPause) {
+        if (this.state.onPause) {
             return (
                 <ImageBackground 
                     source={require('../../assets/images/teacher_gameover_panel.png')}
-                    style={{ width: 520, height: 310, marginLeft: 57, marginTop: 30, zIndex: 920, position: 'absolute' }}>
+                    style={{ width: 520, height: 310, marginLeft: 57, marginTop: 30, zIndex: 999, position: 'absolute' }}>
                 
                     <TouchableOpacity 
                         onPress={this.props.pressResumeFunction}>
@@ -41,7 +41,7 @@ export default class GameOver extends React.Component {
         }
         else
         {
-            return null;
+           return null;
         }
     }
 }

@@ -46,7 +46,7 @@ var hint = null;
 var gameOver = false;
 var onPause = false;
 
-const MAX_SCORE = 1;
+const MAX_SCORE = 10;
 
 export default class TeacherActivity extends React.Component {
     constructor(props) {
@@ -143,6 +143,8 @@ export default class TeacherActivity extends React.Component {
         instruction.release();
         wrongAnswer1_sfx.release();
         wrongAnswer2_sfx.release();
+        onPause = false;
+        gameOver = false;
     }
 
     generateNewNumber = (max) => {
@@ -260,12 +262,13 @@ export default class TeacherActivity extends React.Component {
 
     setOnPause = (value) =>{
         onPause = value;
+        this.forceUpdate();
     }
     render() {
         const { navigate } = this.props.navigation;
         return (
             <View style={styles.container}>
-                <TouchableOpacity style={styles.pause_button} onPress={() => this.setOnPause(true)}>
+                <TouchableOpacity style={styles.pause_button} onPress={() => this.setOnPause(!onPause)}>
                     <Image
                         style={{ width: 50, height: 50, position: "relative" }}
                         source={require('../../assets/images/pause.png')}>
@@ -277,12 +280,12 @@ export default class TeacherActivity extends React.Component {
                 </View>
 
                 <Pause onPause={onPause}
-                    pressRestartFunction={() => this.setOnPause(false)}
-                    pressExitFunction={() => { navigate('MainMenuActivity', {}); background_sfx.stop() }} />
+                    pressResumeFunction={() => this.setOnPause(!onPause)}
+                    pressExitFunction={() => { background_sfx.stop(); navigate('ChooseMiniGameActivity', {});}} />
 
                 <GameOver showGameOver={gameOver}
                     pressRestartFunction={() => this.restart()}
-                    pressExitFunction={() => { navigate('MainMenuActivity', {}); background_sfx.stop() }} />
+                    pressExitFunction={() => {  background_sfx.stop(); navigate('MainMenuActivity', {})}} />
 
                 <Image
                     style={{ width: 600, height: 370, marginLeft: 19 }}
