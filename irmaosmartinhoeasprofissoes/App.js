@@ -6,18 +6,25 @@ import Immersive from 'react-native-immersive'
 
 
 import TeacherActivity from './app/components/TeacherActivity';
+import MainMenuActivity from './app/components/MainMenuActivity';
+
 import { StackNavigator} from 'react-navigation'
 
 
 
 const NavigationApp = StackNavigator(
   {
+    MainMenuActivity: { 
+      screen: MainMenuActivity,
+    },
+
     TeacherActivity: { 
       screen: TeacherActivity,
     }
+    
   },
   {
-    initialRouteName: 'TeacherActivity',
+    initialRouteName: 'MainMenuActivity',
     headerMode:'none'
   }
 );

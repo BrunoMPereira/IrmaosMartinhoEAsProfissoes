@@ -1,18 +1,15 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
 
+var showGameOver = false;
 export default class GameOver extends React.Component {
 
     constructor(props){
         super(props);
-        this.state =
-        {
-            showGameOver: props.showGameOver, 
-        }
     }
 
     render(){
-        if (this.state.showGameOver) {
+        if (showGameOver) {
             return (
                 <View>
                     <Image

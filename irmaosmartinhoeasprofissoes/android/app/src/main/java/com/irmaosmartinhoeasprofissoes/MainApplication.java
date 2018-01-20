@@ -28,7 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new RNImmersivePackage(),
             new OrientationPackage(),
-            new RNSoundPackage()
+            new RNSoundPackage(),
+            new ActivityStarterReactPackage()
       );
     }
 

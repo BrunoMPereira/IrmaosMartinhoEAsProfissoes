@@ -30,7 +30,22 @@ const styles = StyleSheet.create({
       height: 80, 
       marginLeft:91,
       zIndex:900
+    },
+
+    main_menu_play:{
+      marginLeft:262, 
+      marginTop:215,
+      position:'absolute',
+      zIndex:999
+    },
+    
+    main_menu_settings:{
+      marginLeft:578, 
+      marginTop:300,
+      position:'absolute',
+      zIndex:999
     }
+
   });
 
 module.exports = styles;
