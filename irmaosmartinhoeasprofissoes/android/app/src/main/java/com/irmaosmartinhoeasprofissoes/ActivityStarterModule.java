@@ -1,3 +1,9 @@
+package com.irmaosmartinhoeasprofissoes;
+
+
+import android.content.Intent;
+import com.irmaosmartinhoeasprofissoes.Menus.Credits;
+
 import android.content.Context;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -16,9 +22,9 @@ class ActivityStarterModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    void settings() {
+    void credits() {
         ReactApplicationContext context = getReactApplicationContext();
-        Intent intent = new Intent(context, Settings.class);
+        Intent intent = new Intent(context, Credits.class);
         context.startActivity(intent);
     }
 }

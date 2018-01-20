@@ -2,6 +2,7 @@ package com.irmaosmartinhoeasprofissoes;
 
 import android.app.Application;
 
+
 import com.facebook.react.ReactApplication;
 import com.rnimmersive.RNImmersivePackage;
 import com.github.yamill.orientation.OrientationPackage;
@@ -17,6 +18,7 @@ import java.util.List;
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    
     @Override
     public boolean getUseDeveloperSupport() {
       return BuildConfig.DEBUG;
@@ -29,7 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
             new RNImmersivePackage(),
             new OrientationPackage(),
             new RNSoundPackage(),
-            new ActivityStarterReactPackage()
+            new ActivityStarterPackage()
       );
     }
 

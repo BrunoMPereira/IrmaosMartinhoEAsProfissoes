@@ -1,4 +1,4 @@
-package com.example.pc.irmaosmartinhoeasprofissoes.Menus;
+package com.irmaosmartinhoeasprofissoes.Menus;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-import com.example.pc.irmaosmartinhoeasprofissoes.GeneralActivity;
-import com.example.pc.irmaosmartinhoeasprofissoes.R;
+import com.irmaosmartinhoeasprofissoes.GeneralActivity;
+import com.irmaosmartinhoeasprofissoes.R;
 
 /**
  * Apresenta os creditos da aplicação, que aparecerao de baixo para cima como normalmente visto na cultura pop
@@ -17,7 +17,7 @@ import com.example.pc.irmaosmartinhoeasprofissoes.R;
 public class Credits extends GeneralActivity {
     private final int ANIMATION_DURATION = 25000;
 
-    private TextView creditsText , creditsText2;
+    private View creditsText , creditsText2;
     private Animation animation, animation2;
 
     @Override
@@ -34,12 +34,12 @@ public class Credits extends GeneralActivity {
         animation2.setDuration(ANIMATION_DURATION);
 
         creditsText = findViewById(R.id.creditsText);
-        creditsText.setText(creditsText());
+        //creditsText.setText(creditsText());
 
         creditsText.startAnimation(animation);
 
         creditsText2 = findViewById(R.id.creditsText2);
-        creditsText2.setText(creditsText2());
+       // creditsText2.setText(creditsText2());
 
         creditsText2.startAnimation(animation2);
     }
@@ -50,15 +50,15 @@ public class Credits extends GeneralActivity {
         //if(!isServiceRunning(MusicService.class)){
         //    startService(new Intent(this, MusicService.class));
         //}
-        if(!MainMenu.mp.isPlaying()) {
-            MainMenu.mp.seekTo(MainMenu.mp.getCurrentPosition() - 100);
-            MainMenu.mp.start();
-        }
+        //  if(!MainMenu.mp.isPlaying()) {
+        //     MainMenu.mp.seekTo(MainMenu.mp.getCurrentPosition() - 100);
+        //     MainMenu.mp.start();
+        // } 
     }
     @Override
     protected  void onPause(){
         super.onPause();
-        MainMenu.mp.pause();
+       // MainMenu.mp.pause();
     }
 
     @Override
@@ -70,15 +70,15 @@ public class Credits extends GeneralActivity {
     @Override
     protected  void onDestroy(){
         super.onDestroy();
-        if(MainMenu.mp != null) {
-            MainMenu.mp.stop();
-            MainMenu.mp = null;
-        }
+        // if(MainMenu.mp != null) {
+        //     MainMenu.mp.stop();
+        //     MainMenu.mp = null;
+        // }
     }
 
-    public void backToSettings(View view){
-        startActivity(new Intent(getApplicationContext(), Settings.class));
-    }
+    // public void backToSettings(View view){
+    //     startActivity(new Intent(getApplicationContext(), Settings.class));
+    // }
 
     //Apresenta a primeira parte do texto dos crétidos
     private String creditsText(){

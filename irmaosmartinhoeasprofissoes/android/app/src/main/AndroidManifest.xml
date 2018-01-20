@@ -26,7 +26,7 @@
       android:theme="@style/AppTheme">
 
     <activity
-            android:name=".Menus.Settings"
+            android:name=".Menus.Credits"
             android:screenOrientation="landscape" />
 
 
