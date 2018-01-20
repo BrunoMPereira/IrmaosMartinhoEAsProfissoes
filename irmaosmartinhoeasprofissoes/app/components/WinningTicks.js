@@ -34,9 +34,9 @@ const styles = StyleSheet.create({
     },
     scoreTick:
     {
-      width: 50,
-      height: 50,
-      marginLeft: 10,
+      width: 32,
+      height: 32,
+      marginLeft: 13,
       marginTop: 10,
       zIndex: 10
     }

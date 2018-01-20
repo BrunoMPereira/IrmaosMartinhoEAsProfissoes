@@ -18,13 +18,14 @@ class ActivityStarterModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "ActivityStarter";
+        return "intentstarter";
     }
 
     @ReactMethod
     void credits() {
         ReactApplicationContext context = getReactApplicationContext();
         Intent intent = new Intent(context, Credits.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
     }
 }

@@ -24,14 +24,6 @@ const styles = StyleSheet.create({
       zIndex:900, 
       position:'absolute'
     },
-    slot:
-    {
-      width: 80,
-      height: 80, 
-      marginLeft:91,
-      zIndex:900
-    },
-
     main_menu_play:{
       marginLeft:262, 
       marginTop:215,

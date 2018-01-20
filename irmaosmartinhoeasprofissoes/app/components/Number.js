@@ -27,8 +27,8 @@ export default class Number extends React.Component {
 const styles = StyleSheet.create({
     slot:
     {
-      width: 80,
-      height: 93, 
+      width: 78,
+      height: 91, 
       marginLeft:40,
       marginTop:5
     }

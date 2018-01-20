@@ -4,20 +4,20 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\professordraw.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\professordraw.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_fogo.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_fogo.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\background_cook.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\background_cook.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mariapiloto.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\mariapiloto.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_bombeira.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_bombeira.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pilotodraw.png",
@@ -28,52 +28,52 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot3.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cake_spritesheet2.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cake_spritesheet2.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_pintora.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_pintora.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\volume_down.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\volume_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot2.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot2.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\empty_panel.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\empty_panel.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause_screen.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pause_screen.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cake_bases.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cake_bases.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_professora.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_professora.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\restart.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\restart.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\toppings.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\toppings.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_menu.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\main_menu.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\resume.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\resume.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_pasteleira.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_pasteleira.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pintordraw.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pintordraw.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\back.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
-    },
-    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\location_icon.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\location_icon.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\round_coatings.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\round_coatings.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\profimg_cook.png",
@@ -92,92 +92,84 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mariapilotodraw.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\mariapilotodraw.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gender_female.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\gender_female.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot3.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot3.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_josepiloto.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_josepiloto.png"
-    },
-    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\coatings_grid.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\coatings_grid.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cake_shapes.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cake_shapes.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\back.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cake_shapes.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cake_shapes.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot0.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot0.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\background_cook.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\background_cook.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\carrodraw.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\carrodraw.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\empty_panel.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\empty_panel.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_bombeira.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_bombeira.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot1.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot1.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\settings.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\settings.png"
-    },
-    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mute.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\mute.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_name.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gender_male.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\gender_male.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pause.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\carrodraw.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\carrodraw.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arrows.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\arrows.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\profimg_pilot.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\profimg_pilot.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\resume.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\resume.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\profimg_firefighter.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\profimg_firefighter.png"
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\carrodraw.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\carrodraw.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\round_coatings.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\round_coatings.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_mariapiloto.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_mariapiloto.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cross_mark.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cross_mark.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot0.png",
@@ -192,10 +184,6 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\professordraw.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\single_hearth.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\single_hearth.png"
     },
@@ -204,12 +192,16 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_pintora.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\josepiloto.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\josepiloto.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_mariapiloto.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_mariapiloto.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\restart.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\restart.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause_sign.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pause_sign.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pintor.png",
@@ -228,16 +220,8 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\score_star.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\volume_down.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\volume_down.png"
-    },
-    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot2.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot2.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\splashscreen.png",
@@ -248,12 +232,8 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_pilota.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_pilota.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\backgroundsemcores.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\backgroundsemcores.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cross_mark.png",
@@ -268,6 +248,322 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\play.png"
     },
     {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pintordraw.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pintordraw.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\score_star.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\score_star.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\play.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\play.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\volume_up.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\volume_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_professora.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_professora.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\splashscreen.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\splashscreen.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arrows.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\arrows.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cake_spritesheet2.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cake_spritesheet2.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\profimg_pilot.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\profimg_pilot.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_fogo.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_fogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cake_spritesheet2.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cake_spritesheet2.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\single_hearth.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\single_hearth.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\barraagua.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\barraagua.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause_screen.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pause_screen.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_professora.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_professora.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\toppings.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\toppings.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_menu.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\main_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pintor.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pintor.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\back.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pintordraw.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pintordraw.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\profimg_firefighter.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\profimg_firefighter.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_name.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\location_icon.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\location_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gender_male.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\gender_male.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mariapilotodraw.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\mariapilotodraw.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gender_female.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\gender_female.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_josepiloto.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_josepiloto.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\waterdrop.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\waterdrop.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\cake_shapes.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\cake_shapes.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\toppings.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\toppings.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_bombeira.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_bombeira.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\coatings_grid.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\coatings_grid.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\settings.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\volume_up.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\volume_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\backgroundsemcores.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\backgroundsemcores.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\settings.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\settings.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\location_icon.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\location_icon.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gender_male.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\gender_male.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\main_menu.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\main_menu.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\resume.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\resume.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\profimg_firefighter.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\profimg_firefighter.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\profimg_cook.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\profimg_cook.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\exit.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\exit.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_mariapiloto.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_mariapiloto.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\josepiloto.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\josepiloto.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\restart.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\restart.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_gato.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_gato.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pilotodraw.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pilotodraw.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mariapilotodraw.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\mariapilotodraw.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_fogo.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_fogo.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mute.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\mute.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\firefighterbg.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\firefighterbg.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pause_screen.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\pause_screen.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\clock.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\mariapiloto.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\mariapiloto.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\volume_down.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\volume_down.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot2.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot2.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_pilota.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_pilota.png"
+    },
+    {
+        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\backgroundsemcores.png",
+        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\backgroundsemcores.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\gender_female.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\gender_female.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_pasteleira.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_pasteleira.png"
+    },
+    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
@@ -280,31 +576,43 @@
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\exit.png"
     },
     {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\slot1.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\slot1.png"
+    },
+    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\waterdrop.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\waterdrop.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_josepiloto.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_josepiloto.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\firefighterbg.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\firefighterbg.png"
     },
     {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\volume_up.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\volume_up.png"
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\josepiloto.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\josepiloto.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\maria_pilota.png",
+        "source": "C:\\Users\\Bruno\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\maria_pilota.png"
     },
     {
         "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\animacao_gato.png",
         "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\animacao_gato.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\arrows.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\src\\main\\res\\drawable-xxhdpi\\arrows.png"
-    },
-    {
-        "merged": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "C:\\IrmaosMartinhoEAsProfissoes\\irmaosmartinhoeasprofissoes\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     }
 ]

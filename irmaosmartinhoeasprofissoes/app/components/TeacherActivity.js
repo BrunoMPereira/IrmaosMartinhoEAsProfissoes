@@ -44,6 +44,8 @@ var hint = null;
 
 var gameOver = false;
 
+const MAX_SCORE = 10;
+
 export default class TeacherActivity extends React.Component{
     constructor(props) {
         super(props);
@@ -234,8 +236,7 @@ export default class TeacherActivity extends React.Component{
     }
 
     checkGameOver = () => {
-        //MUDAR NO FINAL
-        if(score === 1)
+        if(score === MAX_SCORE)
         {
             this.endGame();
         }
@@ -264,8 +265,9 @@ export default class TeacherActivity extends React.Component{
     render() {
         return (
             <View style={styles.container}>
-                <WinningTicks ticksNumber={score}/>
-
+                <View style={{marginLeft:80, marginTop:20, position:'absolute'}}>
+                    <WinningTicks ticksNumber={score}/>
+                </View>
                 <GameOver showGameOver={gameOver}
                           pressRestartFunction={() => this.restart()} 
                           pressExitFunction={() => this.exitGame()}/>

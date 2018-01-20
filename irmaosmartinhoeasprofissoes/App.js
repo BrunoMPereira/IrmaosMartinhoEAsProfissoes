@@ -37,8 +37,8 @@ export default class App extends React.Component {
   }
 
   render(){
-    // return <NavigationApp />;
-    return <Button onPress={this.action.bind(this)} title="TAP HERE">
-  </Button>
+    return <NavigationApp />;
+    
+    //return <Button onPress={this.action.bind(this)} title="TAP HERE"></Button>
   }
 }

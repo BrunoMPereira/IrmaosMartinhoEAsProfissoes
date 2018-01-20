@@ -4,7 +4,8 @@ import Orientation from 'react-native-orientation'
 import Sound from 'react-native-sound'
 import Immersive from 'react-native-immersive'
 
-const { nativeModules } = NativeModules;
+const { intentstarter } = NativeModules;
+
 
 var styles = require('../../styles');
 var background_sfx = null;
@@ -48,7 +49,7 @@ export default class TeacherActivity extends React.Component{
 
                 <TouchableOpacity 
                 style={styles.main_menu_settings} 
-                onPress={() => { nativeModules.settings();}}>
+                onPress={() => { intentstarter.credits()}}>
                     <Image
                         style={{ width: 59, height: 57, position: "relative" }}
                         source={require('../../assets/images/settings.png')}>

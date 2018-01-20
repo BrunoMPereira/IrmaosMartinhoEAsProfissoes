@@ -19,7 +19,7 @@ public class MainActivity extends ReactActivity{
     super.onWindowFocusChanged(hasFocus);
 
     if (hasFocus && RNImmersiveModule.getInstance() != null) {
-     RNImmersiveModule.getInstance().emitImmersiveStateChangeEvent();
+      RNImmersiveModule.getInstance().emitImmersiveStateChangeEvent();
     }
   }
 }
